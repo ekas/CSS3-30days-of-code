@@ -1,4 +1,4 @@
-.container {
+/*.container {
     height: 100%;
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -24,4 +24,11 @@
 
 .footer {
     grid-area: f;
+}*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
+    grid-gap: 5px;
 }
