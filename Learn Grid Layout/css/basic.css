@@ -6,6 +6,14 @@
     color: #ffeead;
 }
 
+.container2 >  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+}
+
 head,body {
     background-color: #ffeead;
     margin: 0;
@@ -27,5 +35,21 @@ head,body {
 }
 
 .container > div:nth-child(4n) {
+    background-color: #ffcc5c;
+}
+
+.container2 > div:nth-child(1n) {
+    background-color: #96ceb4;
+}
+
+.container2 > div:nth-child(3n) {
+    background-color: #88d8b0;
+}
+
+.container2 > div:nth-child(2n) {
+    background-color: #ff6f69;
+}
+
+.container2 > div:nth-child(4n) {
     background-color: #ffcc5c;
 }

@@ -1,3 +1,4 @@
+/*Grid Template Areas*/
 /*.container {
     height: 100%;
     display: grid;
@@ -33,6 +34,8 @@
     grid-gap: 5px;
 }*/
 
+
+/*Named Lists*/
 /*.container {
     height: 100%;
     display: grid;
@@ -57,7 +60,9 @@
     grid-column: main;
 }*/
 
-.container {
+/*Justify-Content & Align-Content*/
+/*Justify-Items & Align-Items*/
+/*.container {
     border: 1px solid black;
     height: 100%;
     display: grid;
@@ -65,5 +70,24 @@
     grid-template-rows: repeat(2, 100px);
     justify-content: center;
     align-content: center;
+    /*justify-items: stretch;
+    align-items: stretch;
+    grid-gap: 5px;
+}*/
+
+/*Auto-fit & Auto-fill*/
+.container {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: 100px, 100px;
+    grid-gap: 5px;
+}
+
+.container2 {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-rows: 100px, 100px;
     grid-gap: 5px;
 }
