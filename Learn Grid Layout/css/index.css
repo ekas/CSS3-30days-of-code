@@ -33,7 +33,7 @@
     grid-gap: 5px;
 }*/
 
-.container {
+/*.container {
     height: 100%;
     display: grid;
     grid-template-columns: [main-start] 1fr [content-start] 5fr [content-end main-end];
@@ -55,4 +55,15 @@
 
 .footer {
     grid-column: main;
+}*/
+
+.container {
+    border: 1px solid black;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 5px;
 }
